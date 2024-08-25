@@ -106,7 +106,7 @@ main img{
     cursor: pointer;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 768px) {
     .cabeca {
         display: flex;
         flex-direction: column;
@@ -123,11 +123,11 @@ main img{
     }
 
     main h1 {
-        font-size: 28px;
+        font-size: 18px;
     }
 
     main p {
-        font-size: 18px;
+        font-size: 8px;
     }
 
     main img {
