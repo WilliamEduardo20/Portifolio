@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+</head>
+<body class="fundo">
+    <div class="caixa">
+        <header class="cabeca">
+            <a href="index.html" class="playwrite-nl">Home</a>
+            <div class="Redireciona">
+                <a href="contato.html" class="playwrite-nl">Contato</a>
+                <a href="sobre.html" class="playwrite-nl">Sobre</a>
+                <a href="habilidades.html" class="playwrite-nl">Habilidades</a>
+                <a href="experiencias.html" class="playwrite-nl">Experiências</a>
+            </div>
+            <i class="fa-brands fa-whatsapp" style="color: #1D3461;" alt="whatsapp"></i>
+            <i class="fa-brands fa-linkedin-in" style="color: #1D3461;" alt="linkedin-in"></i>
+            <i class="fa-brands fa-instagram" style="color: #1D3461;" alt="instagram"></i>
+        </header>
+        <main>
+            <section>
+                <h1>Desenvolvedor Front-end e Back-end</h1>
+                <hr>
+                <p>Olá meu nome é William sou programador Fullstack com curso
+                   em informática para internet.
+                </p>
+            </section>
+            <img id="foto" class="foto-programador" src="foto.jpg" alt="Foto do programador">
+        </main>
+    </div>
+    <script type="module" src=".index.js"></script>
+</body>
+</html>
