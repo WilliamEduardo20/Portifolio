@@ -1,0 +1,2 @@
+fundo = [];
+idioma = [];
