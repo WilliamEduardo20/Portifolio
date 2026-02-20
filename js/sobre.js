@@ -22,7 +22,7 @@ function mudarIdioma() {
     // Calcula o índice do idioma com base no número de cliques
     const indiceIdioma = contadorCliques % dados.linguas.length;
 
-    if (contadorCliques === 2) {
+    if (contadorCliques === 1) {
         // Atualiza o texto dos elementos com base no idioma selecionado
         elementos.forEach((elemento, index) => {
             elemento.textContent = dados.linguas[indiceIdioma][index];
@@ -32,22 +32,6 @@ function mudarIdioma() {
         setTimeout(function() {
             popup.style.display = 'block';
         }, 5000);
-    }
-}
-
-// Seleção do elemento popup
-const popup = document.getElementById('popup');
-
-// Fechando popup
-const closePopupBtn = document.querySelector('.close');
-closePopupBtn.onclick = function() {
-    popup.style.display = 'none';
-}
-
-// Fechando popup clicando fora da modal
-window.onclick = function(event) {
-    if (event.target == popup) {
-        popup.style.display = 'none';
     }
 }
 
