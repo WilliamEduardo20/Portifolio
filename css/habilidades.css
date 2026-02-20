@@ -117,12 +117,33 @@ main img:hover {
 
 /* Responsividade */
 @media (max-width: 768px) {
-    main {
-        gap: 24px;
+    .caixa {
+        width: 95%;
+        margin: 10px auto;
     }
-    
+
+    .cabeca {
+        flex-direction: column;
+        gap: 12px;
+        padding: 14px 16px;
+    }
+    .cabeca a { width: 100%; text-align: center;}
+
+    .Redireciona {
+        display: flex;
+        gap: 12px;
+        text-align: center;
+    }
+    .Redireciona a { width: 45%; }
+
+    main {
+        padding: 28px 16px;
+        gap: 20px;
+    }
+
     main img {
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
+        padding: 12px;
     }
 }

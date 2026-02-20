@@ -136,20 +136,44 @@ hr {
     border-color: #93c5fd;
 }
 
-/* Responsividade – mantém side-by-side em telas maiores, empilha em mobile */
+/* Responsividade */
 @media (max-width: 768px) {
-    main {
+    .caixa {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .cabeca {
         flex-direction: column;
-        align-items: center;
+        gap: 12px;
+        padding: 14px 16px;
+    }
+    .cabeca a { width: 100%; text-align: center;}
+
+    .Redireciona {
+        display: flex;
+        gap: 12px;
         text-align: center;
     }
-    
-    main .foto-programador {
-        width: 220px;
-        height: 280px;
+    .Redireciona a { width: 45%; }
+
+    main {
+        flex-direction: column-reverse;
+        padding: 24px 16px;
+        gap: 24px;
+        text-align: center;
     }
-    
+
+    main .foto-programador {
+        width: 200px;
+        height: 260px;
+    }
+
     main h1 {
-        font-size: 2.2rem;
+        font-size: 2.1rem;
+    }
+
+    main p {
+        font-size: 1.05rem;
     }
 }

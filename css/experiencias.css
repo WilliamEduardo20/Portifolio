@@ -123,13 +123,39 @@ main a:hover {
 
 /* Responsividade */
 @media (max-width: 768px) {
-    main {
-        padding: 32px 20px;
+    .caixa {
+        width: 92%;
+        margin: 12px auto;
+    }
+
+    .cabeca {
+        flex-direction: column;
+        gap: 12px;
+        padding: 14px 16px;
+    }
+    .cabeca a { width: 100%; text-align: center;}
+
+    .Redireciona {
+        display: flex;
+        gap: 12px;
         text-align: center;
     }
-    
+    .Redireciona a { width: 45%; }
+
+    main {
+        padding: 28px 16px;
+        text-align: center;
+    }
+
+    main ul {
+        padding-left: 0;
+    }
+
     main a {
-        padding: 12px 20px;
+        display: block;
+        margin: 12px auto;
+        width: 90%;
+        padding: 14px 20px;
         font-size: 1.05rem;
     }
 }

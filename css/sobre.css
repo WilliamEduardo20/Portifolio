@@ -149,16 +149,40 @@ main ul li {
 
 /* Responsividade */
 @media (max-width: 768px) {
+    .caixa {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    .cabeca {
+        flex-direction: column;
+        gap: 12px;
+        padding: 14px 16px;
+    }
+    .cabeca a { width: 100%; text-align: center;}
+
+    .Redireciona {
+        display: flex;
+        gap: 12px;
+        text-align: center;
+    }
+    .Redireciona a { width: 45%; }
+
     main {
-        padding: 32px 20px;
+        padding: 28px 16px;
+        gap: 16px;
     }
-    
-    main .foto-contato {
-        width: 220px;
-        height: 280px;     /* mantém proporção próxima do original */
+
+    main #foto {
+        width: 180px;
+        height: auto;
     }
-    
-    main h1 {
-        font-size: 2.1rem;
+
+    main h2 {
+        font-size: 1.7rem;
+    }
+
+    main p {
+        font-size: 1.05rem;
     }
 }
