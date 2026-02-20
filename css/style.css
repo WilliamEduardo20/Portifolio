@@ -176,4 +176,8 @@ hr {
     main p {
         font-size: 1.05rem;
     }
+    
+    main section {
+        min-width: 0;
+    }
 }
